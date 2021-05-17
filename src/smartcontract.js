@@ -78,7 +78,7 @@ class SmartContract{
     }
 
     createGenesisBlock(){
-        return new Block(Date.parse("2020-04-04"), [], "0");
+        return new Block(Date.parse("2020-04-04"), [], '0');
     }
 
     getLatestBlock(){
